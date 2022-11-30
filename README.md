@@ -5,6 +5,8 @@ The main objective of this project is to make machine learning model that helps 
 
 Gravitational waves are considered to be the signals from Colliding blackholes, the GW signals helps researchers to understand more concepts about outer space like Neutron star mergers and black hole properties. These signals are tiny ripples in fabric of space-time. These were detected by GW worldwide detectors. But this signals were buried under detector noise. So,our target is to identify whether any GW signal is present in the given signal along with detector noise.
 
+![gg](https://user-images.githubusercontent.com/69184171/204890189-950960a2-5007-48a6-a8cf-e89dfdb8c19c.jpg)
+
 
 
 **Data Collection:**
@@ -17,6 +19,7 @@ There is a total of 560000 npy files of train data. Each npy file contains 3-tim
 **Data Preprocessing**
 
 To check whether a  GW signal is present or not along with the noise, we need to check if there is any other frequency spread in the signal along with noise frequency. But here the main problem is, we are given the signal data in Time domain, we need to convert it into frequency domain (i’e; into spectrogram) which are stored as images. These spectrogram images are later divided into train and validation datasets of several batches. We use Constant Q Transform technique to convert the signals in time domain to spectrogram.
+
 
 **CNN Model**
 
