@@ -5,6 +5,8 @@ The main objective of this project is to make machine learning model that helps 
 
 Gravitational waves are considered to be the signals from Colliding blackholes, the GW signals helps researchers to understand more concepts about outer space like Neutron star mergers and black hole properties. These signals are tiny ripples in fabric of space-time. These were detected by GW worldwide detectors. But this signals were buried under detector noise. So,our target is to identify whether any GW signal is present in the given signal along with detector noise.
 
+
+
 **Data Collection:**
 
 We are provided with a training set of time series data containing simulated gravitational wave measurements from 3 gravitational wave interferometers (LIGO Hanford, LIGO Livingston, and Virgo). The waves detected by GW detectors will have noises in output signals. So our aim is to find out if the output signal from this detector is only noise or signal+noise.
